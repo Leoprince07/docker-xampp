@@ -14,4 +14,11 @@ if ($connection->connect_error) {
 }
 
 echo "Connessione al database riuscita con mysqli!";
+//logica
+//1. prendo i dati dalla richiesta http
+//2. costruisco le query utilizzando i dati dell'utente
+//3. eseguo le query
+//4. prendo la risposta della query
+//5. visualzzo i risultati
+
 $connection->close();

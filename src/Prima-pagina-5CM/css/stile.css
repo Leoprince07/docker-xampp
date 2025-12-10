@@ -1,0 +1,77 @@
+/* * {color: red;}
+h1 {color: white; background-color: black;}
+
+/* classe con .nomeclasse 
+.orario {color: blue;}
+
+#titolo {color: green;}*/
+body
+{
+    margin:auto;
+}
+header h1
+{
+    margin:auto;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+}
+header
+{
+    margin:auto;
+    padding-top: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+nav
+{
+    margin-top: 15px;
+    background-color: aqua;
+    color: black;
+}
+
+nav ul
+{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+nav li
+{
+    padding: 5px;
+}
+
+nav a 
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: red underline !important;
+}
+
+nav a :active
+{
+    background-color: blue;
+}
+
+section
+{
+    padding-left: 30px;
+}
+
+footer
+{
+    padding: 20px;
+    background-color: blue;
+    font-size: 0.5m;
+    color: white;
+}
