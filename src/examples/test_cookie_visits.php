@@ -1,12 +1,12 @@
 <?php
-$cookie_name = 'visite';
+$cookie_name = "Leonardo";
+$cookie_value = "10";
+setcookie($cookie_name, $cookie_value, time() + (3600 * 24));
 
-if (isset($_COOKIE[$cookie_name]))
-    $visite = $_COOKIE[$cookie_name] + 1;
-else
-    $visite = 1;
-
-setcookie($cookie_name, $visite, time() + (86400 * 30));
-
-echo "Hai visitato questa pagina " . $visite . " volte.";
+if(isset($_COOKIE[$cookie_name])) {
+  echo "Cookie '" . $cookie_name . "' is set!<br>";
+  echo "Value is: " . $_COOKIE[$cookie_name];
+} else {
+  echo "Cookie named '" . $cookie_name . "' is not set!";
+}
 ?>

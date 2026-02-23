@@ -2,7 +2,7 @@
 $nome = $_POST['nome'];
 $pass = $_POST['password'];
 
-$host = 'db'; 
+    $host = 'db'; 
     $dbname = 'root_db'; 
     $user = 'user';
     $password = 'user';
