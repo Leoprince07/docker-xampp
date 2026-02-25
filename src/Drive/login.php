@@ -21,7 +21,9 @@ if($_POST && isset($_POST['nome'], $_POST['password']))
 
     if($stmt->num_rows > 0)
     {
+        $_SESSION["username"] = $nome;
         header ("Location: dashboard.php");
+        exit;
     }
     else
     {
